@@ -1,0 +1,212 @@
+   
+    body{
+        background-color: black;
+        border: 1px solid black;
+    }
+
+    ::selection{ 
+        user-select: none;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .header{
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: default;
+        color: white;
+        margin-top: 70px;
+    }
+
+
+    ul a{
+        list-style: none;
+        margin: 0 40px;
+        color: black;
+        margin-top: 40px;   
+        padding: 15px; 
+        background-color: white;
+        border-radius: 40px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;
+        border: 1px solid red;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        padding-right: 43px;
+        position: relative;
+        bottom: 19px;
+    }
+
+    .kb{
+        position: relative;
+        bottom: 600px;
+        left: 100px;
+        margin-right: 900px;
+    }
+
+    .efek{
+        margin-right: 820px;
+        position: absolute;
+        bottom: 50px;
+        left: 70px;
+
+    }
+
+    h2{
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-right: 900px;
+        position: relative;
+        bottom: 1180px;
+        left: 1150px;
+        font-size: 120px;
+        cursor: default;
+    }
+
+
+    h3{
+        color: white;
+        position: relative;
+        bottom: 1300px;
+        left: 1190px;
+        font-size: 48px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: default;
+    }
+
+    .as{
+        text-decoration: none;
+        border: 1px solid white;
+        margin: 30px;
+    }
+
+
+    section{
+        margin-bottom: 70px;
+    }
+
+
+    tr{
+        color: black;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    table{
+        margin: auto;
+        border: 2px solid white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        cursor: default;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 35px 120px;
+        border-radius: 15px;
+        background-color:cornflowerblue;
+        font-size: 30px;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 40px;
+        cursor: default;
+        font-size: 45px;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .up{
+        cursor: pointer;
+        margin-bottom: -4px;
+    }
+
+    .atas{
+        border: 1px solid white;
+        margin-right: 1840px;
+        background-color: white;
+        position: relative;
+        left: 1730px;
+        bottom: 60px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+
+
+    .footer{
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0px 700px;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nigga{
+        display: none;
+    }
+
+@media (max-width:600px){
+    .list_menu{
+        display: none;
+    }
+    .biru, .kebab{
+        display: none;
+    }
+    h2,h3,h4,h1{
+        display: none;
+    }
+    table{
+        display: none;
+    }
+    .atas{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .dftr_menu{
+        display: none;
+    }
+    .nigga{
+        margin-top: 300px;
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+@media(max-width : 1920px){
+    .efek{
+        position: relative;
+        left: 100px;
+    }
+    .header{
+        display: block;
+    }   
+
+}
